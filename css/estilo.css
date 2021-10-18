@@ -1,0 +1,7 @@
+.titulo{
+    font-family: 'Tangerine', serif;
+}
+.fundo-gradiente{
+    background: rgb(116,23,166);
+background: linear-gradient(0deg, rgb(124, 124, 124) 28%, rgb(77, 77, 77) 100%);
+}

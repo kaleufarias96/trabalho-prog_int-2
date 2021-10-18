@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estética Avenida</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Menu principal -->
+    <div class="m-menu" id="Inicio"></div>
+
+    <nav class="navbar navbar-expand-md  navbar-dark bg-info ">
+        <a class="navbar-brand titulo" href="#">
+            <img src="/img/logo1.png" alt="" width="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="fundo-gradiente">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-md-7">
+                    <div>
+                        <img src="/img/content-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 align-self-center text-white">
+                    <samp class="btn btn-success">
+                        Atendimento Personalizado
+                    </samp>
+                    <h2 class="my-4">
+                        Faça uma bela página
+                        de aterrissagem
+                    </h2>
+                    <p>Nossa missão é ser reconhecido globalmente como a</p>
+                    <p>consultoria líder exclusivamente focada na excelência</p>
+                    <p>de dados e informações.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="m-menu" id="sobre"></div>
+
+    <section>
+        <div class="container">
+            <div class="jumbotron">
+                <h2>#1 Livro de Experiência
+                    do Usuário sobre
+                    Amazon.com</h2>
+                <p>Nossa missão é ser reconhecido globalmente</p>
+                <p>como a consultoria líder exclusivamente focada</p>
+                <p>na excelência de dados e informações.</p>
+
+            </div>
+
+            <div id="accordion">
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            Entrevista do usuário
+
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            Crie entrevistas e entenda
+                            melhor os seus usuários.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            Visual Design
+
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Crie projetos chamativos e assertivos.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            Resolução de problemas
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Solucione os desafios que
+                            surgirem com seus projetos.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--contados-->
+
+    <div class="m-menu" id="contato"></div>
+
+    <section class="bg-light py-3">
+        <div class="container">
+            <h3 class="text-primary my-4">Entre em Contato Conosco:</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/img/contato.jpg" alt="E-mail" class="img-fluid d-none d-md-block">
+                </div>
+                <div class="col-md-9">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="far fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nome Completo">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                        </div>
+                        <input type="email" class="form-control" placeholder="E-mail para contato">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-users"></i></span>
+                        </div>
+                        <select class="form-control">
+                            <option value="" selected disabled>--Selecione Setor Responsável--</option>
+                            <option value="adm">Administrativo</option>
+                            <option value="ofi">Oficina</option>
+                            <option value="ven">Vendas</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="far fa-edit"></i></span>
+                        </div>
+                        <textarea class="form-control" placeholder="Digite seu comentário"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn btn-primary btn-lg px-5">
+                    <input type="reset" value="Limpar" class="btn btn-danger btn-lg px-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
